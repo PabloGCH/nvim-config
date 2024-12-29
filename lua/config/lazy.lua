@@ -27,5 +27,5 @@ require("lazy").setup({
 		-- import your plugins
 		{ import = "plugins" },
 	},
-	install = { colorscheme = { "kanagawa-dragon" } },
+	install = { colorscheme = { "tokyodark" } },
 })

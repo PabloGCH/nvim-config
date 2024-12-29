@@ -1,5 +1,9 @@
 return {
 	"nvim-tree/nvim-tree.lua",
+	dependencies = {
+		"ryanoasis/vim-devicons",
+		"kyazdani42/nvim-web-devicons",
+	},
 	opts = {
 		sort = {
 			sorter = "case_sensitive",
