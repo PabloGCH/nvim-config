@@ -87,11 +87,6 @@ vim.keymap.set("n", "gD", vim.lsp.buf.declaration)
 vim.keymap.set("n", "gd", vim.lsp.buf.definition)
 vim.keymap.set("n", "gi", vim.lsp.buf.implementation)
 
--- TREE SITTER
--- -----------------------------
-
-vim.keymap.set("n", "fo", ":foldopen<CR>", { noremap = true })
-vim.keymap.set("n", "fc", ":foldclose<CR>", { noremap = true })
 
 -- NVIM DAP
 -- ----------------------------
