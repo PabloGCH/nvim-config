@@ -80,14 +80,12 @@ vim.keymap.set("n", "<A-f>", ":Telescope find_files<CR>", { noremap = true })
 -- FIND FILES BY TEXT
 vim.keymap.set("n", "<A-s>", ":Telescope live_grep<CR>", { noremap = true })
 
-
 -- LANGUAGE SERVER PROVIDER
 -- -----------------------------
 
 vim.keymap.set("n", "gD", vim.lsp.buf.declaration)
 vim.keymap.set("n", "gd", vim.lsp.buf.definition)
 vim.keymap.set("n", "gi", vim.lsp.buf.implementation)
-
 
 -- NVIM DAP
 -- ----------------------------
