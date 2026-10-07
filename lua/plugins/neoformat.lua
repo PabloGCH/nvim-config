@@ -6,10 +6,11 @@ local formats = {
 	scss = "prettier",
 	json = "prettier",
 	javascript = "prettier",
+	htmlangular = "prettier",
 	lua = "stylua",
 	python = "yapf",
 	java = "ast-grep",
-	rust = "ast-grep",
+	rust = "ast-grep"
 }
 
 --Function that runs the formatter
